@@ -1,8 +1,10 @@
 package com.algafood.di;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-//@Component
+
+@TipoQualifier(NivelUrgencia.URGENTE)
 public class NotificationEmail implements INotification {
 
 

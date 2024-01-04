@@ -12,5 +12,17 @@ public class AlgaConfig {
         return notificador;
     }
 
+    @Bean
+    public NotificationSMS notificationSMS() {
+        NotificationSMS notificadorSMS = new NotificationSMS();
+        return notificadorSMS;
+    }
+
+
+  //  @Bean
+  //  public AtivacaoClienteService ativacaoClienteService(INotification notification) {
+ //       AtivacaoClienteService ativacaoClienteService = new AtivacaoClienteService(notification);
+ //       return ativacaoClienteService;
+//    }
 
 }
