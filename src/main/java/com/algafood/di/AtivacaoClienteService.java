@@ -11,7 +11,7 @@ public class AtivacaoClienteService {
 
     private INotification notificador;
 
-   @TipoQualifier(NivelUrgencia.NORMAL)
+   @TipoQualifier(NivelUrgencia.URGENTE)
    public AtivacaoClienteService(INotification notificador) {
       System.out.println();
       this.notificador = notificador;
